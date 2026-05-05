@@ -7,7 +7,6 @@ public class GazeTimerButtonMouse : MonoBehaviour
 
 
     [Header("Mouse / Gaze Settings")]
-    [Tooltip("Segundos con cursor encima para confirmar")]
     public float gazeTimeRequired = 3f;
 
     [Header("Colores del cubo")]
@@ -20,11 +19,8 @@ public class GazeTimerButtonMouse : MonoBehaviour
     public Color barEndColor    = new Color(0.00f, 1.00f, 0.30f, 1f);
 
     [Header("Acción al confirmar")]
-    [Tooltip("Escena a cargar. Vacío = no carga escena.")]
     public string targetScene  = "";
-    [Tooltip("Si es true, carga 'VR Prueba Mouse' (botón Regresar).")]
     public bool   isBackButton = false;
-    [Tooltip("Dificultad: Facil | Medio | Dificil. Vacío = no guarda.")]
     public string difficulty   = "";
 
 

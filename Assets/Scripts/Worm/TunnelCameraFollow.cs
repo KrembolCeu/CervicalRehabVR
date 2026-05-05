@@ -6,10 +6,8 @@ public class TunnelCameraFollow : MonoBehaviour
     public Transform wormHead;
 
     [Header("Follow Settings")]
-    [Tooltip("How fast the camera catches up to the worm's X position (0=never, 1=instant)")]
     public float followSpeed = 0.3f;
 
-    [Tooltip("Horizontal offset so worm head is slightly ahead of screen center")]
     public float leadOffset = 1.5f;
 
     private float _startX;

@@ -20,7 +20,6 @@ public class P3Menu : MonoBehaviour
         public Image           glow;
         public TextMeshProUGUI darkLabel;
         public TextMeshProUGUI brightLabel;
-        [Header("Per-item style")]
         public float           fontSize   = 68f;
         public Vector2         offset     = Vector2.zero;
         public float           skewX      = 0f;

@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class URPMaterialFixer : MonoBehaviour
 {
-    [Tooltip("Color base para el piso y otros objetos sin material asignado.")]
     public Color floorColor = new Color(0.45f, 0.45f, 0.45f, 1f);
 
     void Start()

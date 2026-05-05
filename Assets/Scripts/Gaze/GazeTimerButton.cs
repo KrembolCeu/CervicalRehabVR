@@ -7,7 +7,6 @@ public class GazeTimerButton : MonoBehaviour
 
 
     [Header("Gaze Settings")]
-    [Tooltip("Segundos mirando para confirmar la acción")]
     public float gazeTimeRequired = 3f;
 
     [Header("Colores del cubo")]
@@ -20,11 +19,8 @@ public class GazeTimerButton : MonoBehaviour
     public Color barEndColor    = new Color(0.00f, 1.00f, 0.40f, 1f);
 
     [Header("Acción al confirmar")]
-    [Tooltip("Escena a cargar. Vacío = no carga escena.")]
     public string targetScene  = "";
-    [Tooltip("Si es true, carga 'VR Prueba' (botón Regresar).")]
     public bool   isBackButton = false;
-    [Tooltip("Dificultad: Facil | Medio | Dificil. Vacío = no guarda.")]
     public string difficulty   = "";
 
 

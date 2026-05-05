@@ -3,10 +3,8 @@ using UnityEngine;
 
 public class MenuPositioner : MonoBehaviour
 {
-    [Tooltip("Distance in front of the camera (metres)")]
     [SerializeField] private float distanceFromCamera = 3.52f;
 
-    [Tooltip("Additional vertical offset from eye level (0 = perfectly centred)")]
     [SerializeField] private float verticalOffset = 0f;
 
     private bool _positioned;
