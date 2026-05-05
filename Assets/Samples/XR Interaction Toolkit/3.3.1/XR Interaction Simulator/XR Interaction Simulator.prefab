@@ -909,7 +909,7 @@ MonoBehaviour:
     m_ManualQueueTargetFrame: 0
   m_GripAmount: 1
   m_TriggerAmount: 1
-  m_TranslateXSpeed: 0.2
+  m_TranslateXSpeed: 0
   m_TranslateYSpeed: 0.2
   m_TranslateZSpeed: 0.2
   m_BodyTranslateMultiplier: 5

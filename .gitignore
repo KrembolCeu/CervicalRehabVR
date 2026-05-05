@@ -32,3 +32,22 @@ Recordings/
 
 *_BurstDebugInformation_DoNotShip/
 *_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Unity Asset Store / Package Manager imports (no subir al repo)
+Assets/Lowpoly Style Ultra Pack/
+Assets/Lowpoly Style Ultra Pack.meta
+Assets/TextMesh Pro/
+Assets/TextMesh Pro.meta
+
+# Dev tooling (local only)
+CLAUDE.md
+.claude/
+.utmp/
+.mcp*
+
+# Editor screenshots
+Assets/Screenshots/
+Assets/Screenshots.meta
+
+# Misc
+.Rhistory
