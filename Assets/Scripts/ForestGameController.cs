@@ -17,6 +17,7 @@ public class ForestGameController : MonoBehaviour
 
 
     private float _startX;
+    private float _startZ;
     private float _minZ;
 
 
@@ -27,14 +28,13 @@ public class ForestGameController : MonoBehaviour
 
     void Awake()
     {
+        _startX = transform.position.x;
+        _startZ = transform.position.z;
         BuildCrosshair();
     }
 
     void OnEnable()
     {
-
-
-
         var cam = Camera.main;
         if (cam != null)
         {
@@ -44,9 +44,12 @@ public class ForestGameController : MonoBehaviour
             if (mgs != null) mgs.enabled = false;
         }
 
+        Vector3 p = transform.position;
+        p.x = _startX;
+        p.z = _startZ;
+        transform.position = p;
 
-        _startX = transform.position.x;
-        _minZ   = transform.position.z;
+        _minZ = _startZ;
 
 
         Cursor.lockState = CursorLockMode.Locked;
@@ -60,7 +63,6 @@ public class ForestGameController : MonoBehaviour
 
     void OnDisable()
     {
-
         var cam = Camera.main;
         if (cam != null)
         {
@@ -70,12 +72,16 @@ public class ForestGameController : MonoBehaviour
             if (mgs != null) mgs.enabled = true;
         }
 
-
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible   = true;
 
         ExitGaze();
         SetCrosshairProgress(0f, false);
+
+        Vector3 pos = transform.position;
+        pos.x = _startX;
+        pos.z = _startZ;
+        transform.position = pos;
     }
 
     void Update()
@@ -216,6 +222,15 @@ public class ForestGameController : MonoBehaviour
     }
 
 
+
+    public void ResetAndStop()
+    {
+        Vector3 p = transform.position;
+        p.x = _startX;
+        p.z = _startZ;
+        transform.position = p;
+        enabled = false;
+    }
 
     public void StopWalking()
     {

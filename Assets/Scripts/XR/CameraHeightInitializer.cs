@@ -52,7 +52,6 @@ public class CameraHeightInitializer : MonoBehaviour
 
     private void OnDisable()
     {
-
         if (!_hasFired)
         {
             _hasFired = true;

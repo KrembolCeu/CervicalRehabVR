@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b99795e47c6d649fb8ad5eaa922c8512, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseGazeSimulator
   maxDistance: 100
   gazeLayer:
@@ -1949,7 +1949,7 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c998a2f4a28ce480cb30cbcbcb851aaa, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForestGameController
   walkSpeed: 1.8
   gazeDistance: 12
@@ -5314,6 +5314,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &381312076
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7452,15 +7453,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 701
+      value: 482
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -297
+      value: -300
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 702
+      value: 554
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10643,6 +10644,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &758624379
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12624,6 +12626,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &908505035
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -13200,7 +13203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -611
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13208,7 +13211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1458
+      value: 900
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14550,6 +14553,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1042590419
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14929,6 +14933,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1069106371
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23202,15 +23207,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 147
+      value: -292
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -109
+      value: -300
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1458
+      value: 313
       objectReference: {fileID: 0}
     - target: {fileID: 442022, guid: b2bb711bfd6ace548b67c0a89694d295, type: 3}
       propertyPath: m_LocalRotation.w
@@ -23522,6 +23527,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1715302907
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -24851,6 +24857,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1803626260
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25142,6 +25149,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1830034229
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -26902,6 +26910,7 @@ MonoBehaviour:
   bobSpeed: 1.5
   bobHeight: 0.06
   pointValue: 10
+  triggersFinalMenu: 0
 --- !u!135 &1993212557
 SphereCollider:
   m_ObjectHideFlags: 0

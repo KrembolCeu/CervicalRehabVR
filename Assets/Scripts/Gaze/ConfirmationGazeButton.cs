@@ -86,7 +86,7 @@ public class ConfirmationGazeButton : MonoBehaviour, IGazeable
         }
         else
         {
-            SceneManager.LoadScene(menuSceneName);
+            SceneLoader.Load(menuSceneName);
         }
     }
 }

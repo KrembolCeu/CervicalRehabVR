@@ -65,6 +65,6 @@ public class GazeButton : MonoBehaviour, IGazeable
         }
 
         DifficultyManager.SetDifficulty(difficultyLevel);
-        SceneManager.LoadScene(gameplaySceneName);
+        SceneLoader.Load(gameplaySceneName);
     }
 }

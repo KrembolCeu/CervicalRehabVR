@@ -17,7 +17,7 @@ public class ResultsGazeButton : MonoBehaviour, IGazeable
     public void OnGazeExit() { if (_bgImage) _bgImage.color = normalColor; if (progressIndicator != null) progressIndicator.Hide(); _selected = false; }
     public void OnGazeSelect() {
         if (_selected) return; _selected = true;
-        if (isPlayAgain) { GameManager.PlayAgain = true; SceneManager.LoadScene(gameSceneName); }
-        else { SceneManager.LoadScene(menuSceneName); }
+        if (isPlayAgain) { GameManager.PlayAgain = true; SceneLoader.Load(gameSceneName); }
+        else { SceneLoader.Load(menuSceneName); }
     }
 }

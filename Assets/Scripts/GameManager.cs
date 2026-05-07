@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
+    void OnDestroy() { if (Instance == this) Instance = null; }
+
 
 
     public void StartGame()
@@ -103,7 +105,10 @@ public class GameManager : MonoBehaviour
     {
 
         var fw = FindObjectOfType<ForestGameController>();
-        if (fw != null) fw.StopWalking();
+        if (fw != null)
+        {
+            fw.ResetAndStop();
+        }
 
 
         var cam = FindCamera();

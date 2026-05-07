@@ -123,7 +123,7 @@ public class MediumGameManager : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        SceneManager.LoadScene(menuSceneName);
+        SceneLoader.Load(menuSceneName);
     }
 
     void UpdateHUD()

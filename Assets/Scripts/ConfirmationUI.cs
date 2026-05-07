@@ -73,5 +73,5 @@ public class ConfirmationUI : MonoBehaviour
     }
 
     public void StartGame()    { BeginGameplay(); }
-    public void ReturnToMenu() { SceneManager.LoadScene("MainMenu"); }
+    public void ReturnToMenu() { SceneLoader.Load("MainMenu"); }
 }

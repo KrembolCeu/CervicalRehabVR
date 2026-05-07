@@ -4817,12 +4817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 2
-  yawRange: 30
-  pitchRange: 20
   cameraTransform: {fileID: 0}
-  lateralLimit: 3.5
-  verticalMin: 1.5
-  verticalMax: 6
 --- !u!114 &1821978990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4923,7 +4918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GazeButton
   difficultyLevel: Dificil
-  gameplaySceneName: NivelJuego Dificil
+  gameplaySceneName: Hard
   progressIndicator: {fileID: 126075505}
   normalColor: {r: 0.24000001, g: 0.036000002, b: 0.036000002, a: 1}
   hoveredColor: {r: 0.44000003, g: 0.066, b: 0.066, a: 1}

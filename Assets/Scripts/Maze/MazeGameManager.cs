@@ -119,7 +119,7 @@ public class MazeGameManager : MonoBehaviour
     }
 
     public void RestartGame()  => ShowDurationSelect();
-    public void ReturnToMenu() => SceneManager.LoadScene(menuSceneName);
+    public void ReturnToMenu() => SceneLoader.Load(menuSceneName);
 
     void LateUpdate()
     {
